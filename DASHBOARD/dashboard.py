@@ -36,7 +36,7 @@ def create_daily_orders_df(df):
 
 daily_orders_df = create_daily_orders_df(df_filtered)
 
-st.header('Olist E-Commerce Dashboard :sparkles:')
+st.header('Brazilian E-Commerce Public Dataset by Olist :sparkles:')
 st.subheader('Daily Orders')
 
 # Display Total Orders
@@ -78,8 +78,6 @@ customers_df = pd.DataFrame(customers_data)
 customer_state_df = pd.DataFrame(customer_state_data)
 payment_type_df = pd.DataFrame(payment_type_data)
 
-# Judul Dashboard
-st.title("Analisis E-Commerce Dataset")
 
 # --- Pelanggan per Kota ---
 st.subheader("Top 10 Kota dengan Pelanggan Terbanyak")
